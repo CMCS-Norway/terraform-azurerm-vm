@@ -240,13 +240,13 @@ variable "proximity_placement_group_id" {
   type        = string
   default     = null
 }
-
+/*
 variable "vm_agent_platform_updates_enabled" {
   description = "Should vm agent platform updates be enabled"
   type        = bool
   default     = true
 }
-
+*/
 variable "accelerated_networking_enabled" {
   description = "Should the network interface have accelerated networking enabled"
   type        = bool
